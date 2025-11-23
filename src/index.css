@@ -24,6 +24,32 @@ html {
     height: 100%;
 }
 
+button {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+}
+
+.header button:hover {
+    filter: brightness(0.9);
+}
+
 main, .formArea {
     display: flex;
     flex-direction: column;
